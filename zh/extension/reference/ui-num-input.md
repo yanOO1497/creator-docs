@@ -14,7 +14,7 @@
 `value`| number, 超过最大值则值更改为最大值，小于最小值则值更改为最小值| 输入框中的内容值
 [`focused`](#`pressed,-focused,-disabled`-控制状态)| boolean | 控制 `focused` 状态 
 [`disabled`](#`pressed,-focused,-disabled`-控制状态)| boolean | 控制 `disabled` 状态, 设置此属性后不再响应事件
-[`readonly`](#readonly)| boolean | 控制 `readonly` 状态, 设置此属性后不再响应事件
+`readonly`| boolean | 控制 `readonly` 状态, 设置此属性后不再响应事件
 [`max`](#max)| number , 默认为 infinite| 限制允许输入的最大值
 [`min`](#min)| number , 默认为 -infinite| 限制允许输入的最小值
 [`step`](#step)| number , 默认为 1| 递增的步长
@@ -36,7 +36,7 @@
 
 ## 使用效果示例
 
-### `pressed, focused, disabled, readonly` 控制状态
+### `pressed, focused, disabled` 控制状态
 ```html
 <ui-num-input placeholder="Normal..."></ui-num-input>
 <ui-num-input placeholder="Focused..." focused></ui-num-input>
