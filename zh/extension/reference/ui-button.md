@@ -7,19 +7,19 @@
 ```
 ![img](ui-kit/ui-button.gif)
 ## 属性
-属性  | 参数值类型 | 功能说明
+属性名  | 参数值类型 | 功能说明
 ------|--------------|-------------
 [`pressed`](#`pressed,-focused,-disabled`-控制状态) | boolean | 控制按钮 `pressed` 状态  
 [`focused`](#`pressed,-focused,-disabled`-控制状态)| boolean  | 控制按钮 `focused` 状态 
-[`disabled`](#`pressed,-focused,-disabled`-控制状态)| boolean  | 控制按钮 `disabled` 状态, 设置此属性后不再响应事件
-[`unnavigable`](#`pressed,-focused,-disabled`-控制状态)| boolean  | 控制按钮是否可导航, 按钮默认可以通过 tab 键获取焦点, 设置此属性后不再响应 tab, 并且鼠标获取焦点后不会有 focus 样式
+[`disabled`](#`pressed,-focused,-disabled`-控制状态)| boolean  | 控制按钮 `disabled` 状态，设置此属性后不再响应事件
+`unnavigable`| boolean  | 控制按钮是否可导航，按钮默认可以通过 tab 键获取焦点，设置此属性后不再响应 tab，并且鼠标获取焦点后不会有 focus 样式
 
 ## 样式控制
 种类  | 参数值类型 | 功能说明
 ------|-----------|-------------
-[size](#控制按钮-size-样式) |`class` 样式名, string, 支持值 "**mini, tiny, samll, medium, large, big, huge, massive**" | 控制按钮大小  
-[color](#控制按钮颜色) |`class` 样式名, string, 支持值"**red, green, blue**" | 控制按钮颜色  
-[`transparent`](#透明按钮) |`class` 样式名, string, 支持值"`transparent`" | 控制按钮种类是否为透明类型 
+[size](#控制按钮-size-样式) |`class` 样式名，string，支持值 "**mini, tiny, samll, medium, large, big, huge, massive**" | 控制按钮大小  
+[color](#控制按钮颜色) |`class` 样式名，string，支持值"**red, green, blue**" | 控制按钮颜色  
+[`transparent`](#透明按钮) |`class` 样式名，string，支持值"`transparent`" | 控制按钮种类是否为透明类型
 
 ## event 事件
 事件名称|是否冒泡|触发机制
@@ -35,7 +35,7 @@
 <ui-button focused>focused</ui-button>
 <ui-button disabled>disabled</ui-button>
 ```
-> 注意：布尔属性, 只要赋值为真值即存在该属性, 想要赋值 false 时, 注意传递的值是否因转化为字符串而导致其他非正确结果           
+> 注意：布尔属性，只要赋值为真值即存在该属性，想要赋值 false 时，注意传递的值是否因转化为字符串而导致其他非正确结果           
 
 
 ![img](ui-kit/ui-button-state.png)

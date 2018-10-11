@@ -21,14 +21,14 @@
 ## 样式控制
 种类              | 参数值类型 | 功能说明
 ----------------|-----------|-------------
-[size](#size-控制大小)      | `class` 样式名, string, 支持值"**mini, tiny, samll, medium, large, big, huge, massive**" | 控制按钮大小 
+[size](#size-控制大小)      | `class` 样式名, string, 支持值"**mini, tiny, samll, medium, large, big, huge, massive**" | 控制组件整体大小，包括内部字体
 
 ## event 事件
 事件名称|是否冒泡|触发机制
 -------|-------|--------
 `change` |是|组件进行输入改变值时或因触发 `cancel` 改值
 `confirm` |是|发生 `change` 改值后，失去焦点或键入 **enter**
-`cancel` |是|发生 `change` 改值后，键入 **esc** （将恢复原值）
+`cancel` |是|发生 `change` 改值后，键入 **esc**后触发（将恢复原值）
 
 ## 使用效果示例
 

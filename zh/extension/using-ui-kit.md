@@ -25,7 +25,9 @@ Cocos Creator 为开发者提供了非常丰富的界面元素，帮助开发者
 ### 控件容器
 
  - [ui-box-container](./reference/ui-box-container.md)
+ - [ui-drop-area](./reference/ui-drop-area.md)
  - [ui-prop](./reference/ui-prop.md)
+ - [ui-prop-table](./reference/ui-prop-table.md)
  - [ui-section](./reference/ui-section.md)
 
 ### 视图元素

@@ -12,12 +12,11 @@
 ## 属性
 属性  | 参数值类型 | 功能说明
 ------|--------------|-------------  
-`value`| string, 支持 16 进制颜色值，rgb 或 rgba 颜色值| 控制 color 的显示颜色, 默认为白色，透明度 1
-[`focused`](#`pressed,-focused,-disabled`-控制状态)| boolean | 控制 `focused` 状态 
-[`disabled`](#`pressed,-focused,-disabled`-控制状态)| boolean | 控制 `disabled` 状态, 设置此属性后不再响应事件
-`readonly` | boolean | 控制 `readonly` 状态, 设置此属性后不再响应事件
-[`password`](#设置-password)| boolean | 控制是否为 `password` 类型, 设置此属性后输入值显示为 "."
-`unnavigable`| boolean | 控制是否可导航, 按钮默认可以通过 tab 键获取焦点, 设置此属性后无法通过 tab 获取焦点，并且鼠标获取焦点后不会有 focus 样式
+`value`| color，支持 16 进制颜色值，rgb 或 rgba 颜色值| 控制 color 的显示颜色，默认为白色，透明度 1
+[`focused`](#`focused,-disabled`-控制状态)| boolean | 控制 `focused` 状态 
+[`disabled`](#`focused,-disabled`-控制状态)| boolean | 控制 `disabled` 状态，设置此属性后不再响应事件
+`readonly` | boolean | 控制 `readonly` 状态，设置此属性后不再响应事件
+`unnavigable`| boolean | 控制是否可导航，按钮默认可以通过 tab 键获取焦点，设置此属性后无法通过 tab 获取焦点，并且鼠标获取焦点后不会有 focus 样式
 > 使用 `element.value` 获取到值为数组对象，例如：[154, 49, 49, 1]
 
 ## event 事件
@@ -29,7 +28,7 @@
 
 ## 使用效果示例
 
-### `pressed, focused, disabled` 控制状态
+### `focused, disabled` 控制状态
 ```html
 <ui-color placeholder="Normal..."></ui-color>
 <ui-color placeholder="Focused..." focused></ui-color>
@@ -37,4 +36,3 @@
 ```
     
 ![img](ui-kit/ui-color-state.png)
-
