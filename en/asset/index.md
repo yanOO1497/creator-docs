@@ -34,7 +34,7 @@ Next we will introduce the main **Asset** types and related workflows in __Cocos
 ## Asset Management Of Runtime
 
 - [Asset Manager](asset-manager.md)
-    - [AssetManager Upgrade Guide Guide](asset-manager-upgrade-guide.md)
+    - [AssetManager Upgrade Guide](asset-manager-upgrade-guide.md)
     - [Asset Bundle Upgrade Guide](subpackage-upgrade-guide.md)
     - [Dynamic load asset](dynamic-load-resources.md) 
     - [Asset Bundle](bundle.md)
